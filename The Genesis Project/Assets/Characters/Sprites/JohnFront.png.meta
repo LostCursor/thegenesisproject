@@ -1,0 +1,144 @@
+fileFormatVersion: 2
+guid: e17f875b61048423f8a4427991332d88
+timeCreated: 1467059253
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: JohnFront_0
+    21300002: JohnFront_1
+    21300004: JohnFront_2
+    21300006: JohnFront_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: JohnFront_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 37
+        width: 152
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76, y: 80.5}
+        - {x: 70, y: 112.5}
+        - {x: -76, y: 112.5}
+        - {x: -76, y: -60.5}
+        - {x: -69, y: -112.5}
+        - {x: 14, y: -112.5}
+        - {x: 33, y: -108.5}
+        - {x: 69, y: 10.5}
+        - {x: 76, y: 59.5}
+    - name: JohnFront_1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 42
+        width: 172
+        height: 225
+      alignment: 9
+      pivot: {x: 0.52430654, y: 0.49070942}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 81.819275, y: 29.590378}
+        - {x: 81.819275, y: 85.59038}
+        - {x: 65.819275, y: 113.59038}
+        - {x: -80.180725, y: 113.59038}
+        - {x: -90.180725, y: 37.590378}
+        - {x: -90.180725, y: -110.40962}
+        - {x: 36.819275, y: -110.40962}
+        - {x: 59.819275, y: -71.40962}
+        - {x: 60.819275, y: -52.409622}
+    - name: JohnFront_2
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 37
+        width: 152
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76, y: 80.5}
+        - {x: 70, y: 112.5}
+        - {x: -76, y: 112.5}
+        - {x: -76, y: -60.5}
+        - {x: -69, y: -112.5}
+        - {x: 14, y: -112.5}
+        - {x: 33, y: -108.5}
+        - {x: 69, y: 10.5}
+        - {x: 76, y: 59.5}
+    - name: JohnFront_3
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 38
+        width: 152
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 54, y: 108.5}
+        - {x: 40, y: 113.5}
+        - {x: -15, y: 113.5}
+        - {x: -70, y: 106.5}
+        - {x: -76, y: 86.5}
+        - {x: -76, y: -33.5}
+        - {x: -62, y: -113.5}
+        - {x: 8, y: -113.5}
+        - {x: 30, y: -110.5}
+        - {x: 76, y: 8.5}
+        - {x: 76, y: 70.5}
+        - {x: 67, y: 70.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
