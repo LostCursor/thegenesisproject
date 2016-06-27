@@ -17,7 +17,7 @@ When you make changes, commit them with Github Desktop unless you know what you'
 If you're making substantial changes, make them on a new branch and submit a pull request. Erin will review and merge that when you're done.
 
 ### Joining the project
-[Message /y/TheBunnyOfTheNight on Reddit](https://www.reddit.com/message/compose/?to=TheBunnyOfTheNight) saying you'd like to join and what you'd like to work on.
+[Message /u/TheBunnyOfTheNight on Reddit](https://www.reddit.com/message/compose/?to=TheBunnyOfTheNight) saying you'd like to join and what you'd like to work on.
 You can also directly contact the lead programmer, Erin, [on Reddit](https://www.reddit.com/message/compose/?to=barzamin).
 
 ### License
