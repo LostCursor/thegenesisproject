@@ -1,0 +1,6 @@
+John's Mattress (Full Size): 54x74 in, 1.3716x1.8796 meters, and 105.19x148.66 pixels
+Approximate Ratio of pixels per meter: 76.69 pix/m
+Dimensions of John's Room in pixels: 389.10x457.28 pixels
+Dimensions of John's Room in meters: 5.0737x5.9627 meters
+Wall thickness in pixels: 26.25 pixels
+Wall thickness in meters: 0.34229 meters
