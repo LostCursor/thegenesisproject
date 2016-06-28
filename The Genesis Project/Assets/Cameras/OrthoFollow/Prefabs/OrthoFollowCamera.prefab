@@ -12,6 +12,8 @@ GameObject:
   - 92: {fileID: 9272906}
   - 124: {fileID: 12434654}
   - 81: {fileID: 8123880}
+  - 114: {fileID: 11490926}
+  - 114: {fileID: 11495928}
   m_Layer: 0
   m_Name: OrthoFollowCamera
   m_TagString: MainCamera
@@ -80,6 +82,37 @@ Behaviour:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 121848}
   m_Enabled: 1
+--- !u!114 &11490926
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 121848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f5e5e769fac140dab344f9d2206f7e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Target: {fileID: 0}
+  m_AutoTargetPlayer: 1
+  m_UpdateType: 0
+  dampTime: 0.3
+--- !u!114 &11495928
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 121848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2ec2b96de5640e42a622fc3064f1c80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Target: {fileID: 0}
+  m_AutoTargetPlayer: 1
+  m_UpdateType: 0
+  m_RotationRange: {x: 0, y: 0}
+  m_FollowSpeed: 1
 --- !u!124 &12434654
 Behaviour:
   m_ObjectHideFlags: 1
