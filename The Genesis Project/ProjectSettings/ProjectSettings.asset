@@ -468,7 +468,7 @@ PlayerSettings:
   WebGL::emscriptenArgs: 
   WebGL::template: APPLICATION:Default
   additionalIl2CppArgs::additionalIl2CppArgs: 
-  cloudProjectId: 
-  projectName: 
-  organizationId: 
+  cloudProjectId: c031ddc9-b082-4f0f-8579-c3da2798f83a
+  projectName: The Genesis Project
+  organizationId: thegenesisproject
   cloudEnabled: 0
