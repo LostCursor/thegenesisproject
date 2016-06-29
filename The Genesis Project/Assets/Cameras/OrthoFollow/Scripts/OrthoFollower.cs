@@ -9,8 +9,8 @@ public class OrthoFollower : UnityStandardAssets.Cameras.AbstractTargetFollower
     public bool flipping = false;
 
 	private Vector3 velocity = Vector3.zero;
-    private int rotationSpeed;
-    private int numRot = 0;
+    private int rotationSpeed = 6;
+    private int numRot;
 
 	protected override void FollowTarget(float dt)
 	{
@@ -19,8 +19,9 @@ public class OrthoFollower : UnityStandardAssets.Cameras.AbstractTargetFollower
         {
             transform.RotateAround(m_Target.position, Vector3.up, rotationSpeed);
             numRot++;
-            if (numRot == 30)
+            if (numRot == Mathf.Floor(Mathf.Abs(180/rotationSpeed)))
             {
+                numRot = 0;
                 flipping = false;
                 flipped = !flipped;
                 cameraOffset.Set(-cameraOffset.x, cameraOffset.y, -cameraOffset.z);
@@ -28,19 +29,17 @@ public class OrthoFollower : UnityStandardAssets.Cameras.AbstractTargetFollower
         }
         else {
             transform.position = Vector3.SmoothDamp(transform.position, goalPosition, ref velocity, dampTime);
-        }
-        if (Input.GetKeyDown(KeyCode.J))
-        {
-            numRot = 0;
-            flipping = true;
-            rotationSpeed = 6;
+            if (Input.GetKeyDown(KeyCode.J))
+            {
+                flipping = true;
+                rotationSpeed = 6;
 
-        }
-        else if (Input.GetKeyDown(KeyCode.L))
-        {
-            numRot = 0;
-            flipping = true;
-            rotationSpeed = -6;
+            }
+            else if (Input.GetKeyDown(KeyCode.L))
+            {
+                flipping = true;
+                rotationSpeed = -6;
+            }
         }
 	}
 }
