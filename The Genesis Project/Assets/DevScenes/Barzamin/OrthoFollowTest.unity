@@ -379,7 +379,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c9ce7291da3d45e2963b397f1f592c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraToFace: {fileID: 1832150882}
+  CameraToFace: {fileID: 1832150882}
 --- !u!20 &1832150882 stripped
 Camera:
   m_PrefabParentObject: {fileID: 2021980, guid: 87c8a54388dbb4bb583fe493e2df1dfc,
