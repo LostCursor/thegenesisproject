@@ -22,3 +22,6 @@ You can also directly contact the lead programmer, Erin, [on Reddit](https://www
 
 ### License
 Check out the `LICENSE.md` file, it's a bit strange because games.
+
+Please note that this project is released with a Contributor Code of Conduct. By participating in this project you agree to abide by its terms. You can find the complete code of conduct in the `CODE_OF_CONDUCT.md` file.
+
