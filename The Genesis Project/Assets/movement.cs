@@ -5,7 +5,6 @@ public class movement : MonoBehaviour {
     
     // Create Variables.
     private Rigidbody John_Rigidbody;
-    private GameObject OrthoFollowerCamera;
     private OrthoFollower followerScript;
     private float X_Speed;
     private float Z_Speed;
@@ -13,8 +12,7 @@ public class movement : MonoBehaviour {
     // Get the rigidbody component from johnsprite and stoe it in John_Rigidbody variable.
     void Start() {
         John_Rigidbody = GetComponent<Rigidbody>();
-        OrthoFollowerCamera = GameObject.FindGameObjectWithTag("MainCamera");
-        followerScript = OrthoFollowerCamera.GetComponent<OrthoFollower>();
+        followerScript = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<OrthoFollower>();
     }
 
 	// Update is called once per frame
