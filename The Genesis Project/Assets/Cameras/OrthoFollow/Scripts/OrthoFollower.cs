@@ -4,7 +4,7 @@ using System.Collections;
 public class OrthoFollower : UnityStandardAssets.Cameras.AbstractTargetFollower
 {
 	public float dampTime = 0.3f;
-	public Vector3 cameraOffset = new Vector3(-8, 7, -8);
+	public Vector3 cameraOffset = new Vector3(-8f, 4f, -8f);
     public bool flipped = false;
     public bool flipping = false;
 
